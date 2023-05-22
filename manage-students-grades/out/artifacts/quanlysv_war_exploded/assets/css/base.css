@@ -1,0 +1,22 @@
+:root {
+    --white-color: #fff;
+    --black-color: #000;
+    --red-color: #cc0d00;
+    --text-color: #333;
+    --subtext-color: #756f6e;
+    --hover-noti-color: #dbdbdb;
+    --menu-color: #001529;
+    --hover-color: rgba(255, 255, 255, 0.3);
+}
+
+* {
+    box-sizing: inherit;
+    margin: 0;
+}
+
+html {
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}

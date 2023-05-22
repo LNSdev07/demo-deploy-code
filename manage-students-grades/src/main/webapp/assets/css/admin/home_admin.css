@@ -1,0 +1,223 @@
+.trangChuMuc,
+.trangChuMuc:hover {
+    padding-left: 20px;
+    margin-left: -20px;
+    background-color: var(--red-color);
+}
+
+html{
+    scroll-behavior: smooth;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+/* header */
+#nav > li > a, #nav2 > li > a{
+    color: #fff;
+    text-transform: uppercase;
+}
+
+#nav li a{
+    text-decoration: none;
+    line-height: 50px;
+    padding: 0 24px 0 24px;
+    display: block;
+}
+
+#nav2 li a{
+    text-decoration: none;
+    line-height: 50px;
+    /* padding: 0 24px 0 24px; */
+    display: block;
+}
+
+#nav >li, #nav2 > li{
+    display: inline-block;
+}
+
+#nav{
+    display: inline-block;
+}
+
+#nav2{
+    float: right;
+    display: flex;
+
+}
+
+#nav2 > input{
+    height: 48px;
+    width: 250px;
+    align-items: stretch;
+}
+
+#nav li{
+    position: relative;
+}
+
+#nav > li:hover > a, #nav2 > li:hover > a{
+    color: black;
+    background-color: #ccc;
+}
+
+#nav2 a{
+    padding: 0 16px;
+}
+
+/* nội dung */
+#noidung{
+    margin-left: -30px;
+}
+
+.noidung-header{
+    padding: 20px;
+    font-size: 20px;
+}
+
+.bon-box{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.box1, .box2, .box3, .box4{
+    width: 22%;
+    min-width: 250px;
+    min-height: 150px;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.box1{
+    background-color: #00EE00;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+}
+
+.box2{
+    background-color: #1E90FF;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+}
+
+.box3{
+    background-color: #FF0000;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+}
+
+.box4{
+    background-color: #EE82EE;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+}
+
+.small-box1{
+    height: 80%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.small-box2{
+    height: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+.small-box3{
+    height: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+.small-box4{
+    height: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+.benTrong{
+    padding: 16px;
+    font-size: 25px;
+    /* display: flex; */
+    align-content: space-around;
+    color: #fff;
+}
+.benTrong h3{
+    margin: 15px 0;
+    font-size: 40px;
+}
+.benTrong p{
+    padding-top: 5px;
+    line-height: 1em;
+}
+.icon{
+    font-size:50px;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    color: #fff;
+    margin-right: 15px;
+}
+.small-box-duoicung{
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    height: 20%;
+    color: white;
+    text-decoration: none;
+    line-height: 30.69px;
+    font-size: 16px;
+    /* box-shadow: inset; */
+}
+.box1 .small-box-duoicung{
+    background-color: #008B00;
+}
+.box2 .small-box-duoicung{
+    background-color: #0000FF;
+}
+.box3 .small-box-duoicung{
+    background-color: #8B0000;
+}
+.box4 .small-box-duoicung{
+    background-color: #8A2BE2;
+}
+/* .box1, .box2, .box3{
+    position: relative;
+} */
+.icon{
+    /* position: absolute; */
+    /* transform: translate(-%, -50%); */
+}
+.icon.move{
+    transform: translate(-3%, -3%) scale(1.1);
+    transition: transform 0.5s ease-in-out;
+}
+.icon:hover{
+    transform: translate(-3%, -3%) scale(1.1);
+    transition: transform 0.5s ease-in-out;
+}
+
+/* đóng menu */
+.manHinhChinh.dongMenu .boc-bang {
+    width: 90vw;
+}
+
+@media screen and (max-width: 740px) {
+    .dauTrang {
+        flex-direction: column;
+    }
+
+    .boc-bang {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .boc-bang {
+        width: 100%;
+    }
+}

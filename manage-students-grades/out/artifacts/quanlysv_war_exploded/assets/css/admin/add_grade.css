@@ -1,0 +1,132 @@
+.nhapDiemMuc,
+.nhapDiemMuc:hover {
+    padding-left: 20px;
+    margin-left: -20px;
+    background-color: var(--red-color);
+}
+
+h1 {
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+
+/* Khu vực nhập điểm */
+.khuVucNhapDiem {
+    margin: 20px 0;
+    border: 1px rgba(0, 0, 0, 0.3) solid;
+    border-radius: 10px;
+}
+
+.khuVucNhapDiem-dau {
+    padding-left: 20px;
+    background-color: var(--red-color);
+    border-radius: 10px 10px 0 0;
+}
+
+.khuVucNhapDiem-dau-tieuDe {
+    margin-right: 10px;
+    line-height: 40px;
+    align-items: center;
+    font-size: 16px;
+    color: white;
+}
+
+.khuVucNhapDiem-phanThan {
+    margin: 20px 20px;
+    text-align: center;
+}
+
+.cot {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.hang {
+    display: flex;
+    flex-direction: row;
+}
+
+.phanThongTin {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+
+label,
+.nhanModal {
+    font-size: 16px;
+    margin-right: 10px;
+    width: 85px;
+    text-align: start;
+}
+
+label {
+    line-height: 35px;
+}
+
+#hoc-ky {
+    margin-left: 25px;
+}
+
+.nhapModal {
+    margin-bottom: 20px;
+    height: 35px;
+    width: 60%;
+    padding: 5px 10px;
+    font-size: 16px;
+}
+
+.nhapMaDiem {
+    width: 60%;
+    height: 35px;
+    margin-bottom: 20px;
+}
+
+.cacNut {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+
+.nutChonFile {
+    font-size: 16px;
+    padding: 10px 0;
+}
+
+.nutNhapDiem {
+    padding: 10px 15px;
+    font-size: 16px;
+    color: white;
+    background-color: #cc0d00;
+    border: none;
+    border-radius: 5px;
+    position: absolute;
+    left: 40%;
+}
+
+#my-dialog{
+    display: none;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #38c172;
+    padding: 8px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    align-items: center;
+}
+
+.nutDong {
+    border: none;
+    border-radius: 3px;
+}
+
+.hien-thi-modal {
+    display: flex !important;
+}

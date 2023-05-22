@@ -1,0 +1,168 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.khoaMuc,
+.khoaMuc:hover {
+    padding-left: 20px;
+    margin-left: -20px;
+    background-color: var(--red-color);
+}
+
+.manHinhChinh {
+    width: 100%;
+    /* margin-left: 20%; */
+}
+
+.clear {
+    clear: both;
+}
+
+.text-red {
+    color: red !important;
+}
+
+.dau-noidung {
+
+    text-align: center;
+    font-size: 60px;
+    font-weight: 500;
+    /*  phông chữ */
+    letter-spacing: 3px;
+    /* để cách chữ */
+    padding: 20px 0;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.dau-noidung1 {
+    text-align: center;
+    font-size: 40px;
+    margin-top: 25px;
+    /* font-size: large; */
+    font-weight: 500;
+    margin-bottom: 16px;
+    /* opacity: 0.6; */
+    /* color:aqua; */
+}
+
+.than-noidung {
+    margin-left: -8px;
+    margin-right: -8px;
+}
+
+.than-noidung::after {
+    display: block;
+    content: "";
+    clear: both;
+}
+
+
+
+
+.btn {
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+    /*chặn dòng kẻ dưới chân*/
+    padding: 11px 16px;
+    display: inline-block;
+    margin-top: 15px;
+    border: none;
+    border-radius: 50px;
+    text-align: center;
+}
+
+
+.btn:hover {
+    /* khi ấn sẽ hiển thị màu */
+    background-color: red;
+    color: #ffffff;
+    cursor: pointer;
+    /* chuyển đổi biểu tưởng con trỏ chuột */
+}
+
+.phanthan {
+    display: flex;
+    height: 100vh;
+}
+
+
+
+.noidung {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.hangngang {
+    display: flex;
+    width: 100%;
+    align-items: stretch;
+}
+
+.hop {
+    width: calc(50% - 10px);
+    margin-bottom: 20px;
+    background-color: #ddd;
+    border: 1px solid #999;
+}
+
+.hop1,
+.hop2,
+.hop3,
+.hop4,
+.hop5,
+.hop6,
+.hop7,
+.hop8 {
+    margin: 8px;
+    border: 2px solid rgb(255, 0, 43);
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+#khoa .cac-khoa {
+    margin-left: 8px;
+    margin-right: 8px;
+
+}
+
+.khoa-img {
+    width: 100%;
+    display: block;
+    /* chặn khoảng đen */
+}
+
+.khoa {
+    padding: 16px;
+    font-size: 15px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.phandau-khoa {
+    font-size: 15px;
+    font-weight: 600;
+    color: red;
+}
+
+.diachi-khoa {
+    margin-top: 15px;
+    color: #0e8beb;
+}
+
+.thongtin-khoa {
+    margin-top: 15px;
+    line-height: 1.6;
+}

@@ -1,0 +1,243 @@
+body {
+    display: flex;
+    flex-direction: row;
+}
+
+.menu {
+    width: 20%;
+    height: 100%;
+    background-color: var(--menu-color);
+    padding-left: 20px;
+    color: var(--white-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: fixed;
+    margin: 0;
+    overflow-y: auto;
+}
+
+.manHinhChinh {
+    width: 80%;
+    padding-left: 30px;
+    margin-left: 20%;
+    margin-right: 30px;
+}
+
+.menu-phanTren {
+    background-color: var(--menu-color);
+}
+
+.nganCach {
+    height: 0.5px;
+    margin-left: -20px;
+    background-color: var(--hover-color);
+}
+
+.tieuDe {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+}
+
+.logo {
+    height: 30px;
+    width: 30px;
+}
+
+.tenTieuDe {
+    padding-left: 10px;
+    font-size: 1.8rem;
+    line-height: 30px;
+}
+
+.taiKhoan {
+    margin: 10px 0;
+    display: flex;
+    flex-direction: row;
+}
+
+.avatar {
+    height: 30px;
+    width: 30px;
+}
+
+.tenTaiKhoan {
+    padding-left: 10px;
+    font-size: 1.5rem;
+    line-height: 30px;
+}
+
+.menuMuc {
+    display: flex;
+    flex-direction: row;
+    padding: 10px 5px;
+    text-decoration: none;
+    color: var(--white-color);
+}
+
+.menuMuc:hover,
+.dongMenuMuc:hover {
+    background-color: var(--hover-color);
+    padding-left: 20px;
+    margin-left: -20px;
+}
+
+.icon-Muc {
+    height: 24px;
+    width: 24px;
+}
+
+.menuMuc-tieuDe {
+    padding-left: 10px;
+    font-size: 1.4rem;
+    line-height: 24px;
+}
+
+.menu-phanDuoi {
+    display: flex;
+    flex-direction: column;
+}
+
+.dangXuat,
+.dongMenuMuc {
+    display: flex;
+    flex-direction: row;
+    padding: 10px 5px;
+    text-decoration: none;
+    color: var(--white-color);
+    background-color: var(--red-color);
+    margin-left: -20px;
+}
+
+.dongMenuMuc {
+    background-color: var(--menu-color);
+    padding: 10px 20px;
+}
+
+.icon-DangXuat {
+    margin-left: 20px;
+    width: 30px;
+    height: 30px;
+}
+
+.dangXuat-tieuDe,
+.dongMenu-tieuDe {
+    padding-left: 12px;
+    line-height: 30px;
+    font-size: 1.6rem;
+}
+
+.thongTin-cacMucCon,
+.monHoc-cacMucCon,
+.khoa-cacMucCon,
+.nguoiDung-cacMucCon {
+    display: none;
+    background-color: rgba(0, 0, 0, .85);
+    margin-left: -20px;
+    padding-left: 55px;
+}
+
+.mucCon:hover {
+    background-color: var(--hover-color);
+    margin-left: -55px;
+    padding-left: 60px;
+}
+
+.open {
+    display: flex;
+    flex-direction: column;
+}
+
+.mucCon {
+    text-decoration: none;
+    color: var(--white-color);
+    font-size: 1.4rem;
+    line-height: 24px;
+    padding: 10px 5px;
+}
+
+/* menu khi đóng */
+.menu.dongMenu {
+    width: 70px;
+}
+
+.menu.dongMenu .menuMuc-tieuDe {
+    display: none;
+}
+
+.menu.dongMenu .tieuDe {
+    display: none;
+}
+
+.menu.dongMenu .tenTaiKhoan {
+    display: none;
+}
+
+.menu.dongMenu .dangXuat-tieuDe {
+    display: none;
+}
+
+.menu.dongMenu .dongMenu-tieuDe {
+    display: none;
+}
+
+.menu.dongMenu .icon-Muc {
+    width: 30px;
+    height: 30px;
+}
+
+.menu.dongMenu .dongMenuMuc {
+    padding-left: 20px;
+}
+
+.manHinhChinh.dongMenu {
+    width: 100%;
+    margin-left: 70px;
+}
+
+@media screen and (max-width: 740px) {
+    .menu {
+        width: 70px;
+    }
+
+    .menuMuc-tieuDe,
+    .tieuDe,
+    .tenTaiKhoan,
+    .dangXuat-tieuDe,
+    .dongMenu-tieuDe {
+        display: none;
+    }
+
+    .icon-Muc {
+        width: 30px;
+        height: 30px;
+    }
+
+    .menuMuc {
+        padding: 10px 0;
+    }
+
+    .dongMenuMuc:hover {
+        padding: 10px 0;
+    }
+
+    .manHinhChinh {
+        width: 86%;
+        margin-left: 70px;
+        padding-left: 15px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .menu {
+        display: none;
+    }
+
+    .manHinhChinh {
+        width: 96%;
+        margin-left: 5px;
+        padding-left: 5px;
+    }
+}

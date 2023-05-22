@@ -1,0 +1,486 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="quanlysv:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="414fe4c8-9d21-415b-8049-1b259eb340f7" name="Changes" comment="Refactor">
+      <change beforePath="$PROJECT_DIR$/out/artifacts/manage_students_grades_war_exploded/Add_grade.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/manage_students_grades_war_exploded/List_MH.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/manage_students_grades_war_exploded/List_SV.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/manage_students_grades_war_exploded/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/manage_students_grades_war_exploded/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/manage_students_grades_war_exploded/assets/css/login.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/manage_students_grades_war_exploded/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/quanlysv/servlet/controller/student/DeleteStudentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/quanlysv/servlet/controller/student/DeleteStudentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/quanlysv/test/StudentControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/quanlysv/test/StudentControllerTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Jsp File" />
+        <option value="JUnit5 Test Class" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2LwgLGcvGuS12ymumX9GVjDg2Jt" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;corretto-11 (2)&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/trinh/OneDrive/Desktop/nam3cmnr/MuoiMot&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.build&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;postgresql&quot;
+    ]
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Admins\OneDrive\Desktop\Self_Learn\quanlysv\src\main\webapp\WEB-INF\lib" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Admins\OneDrive\Desktop\Self_Learn\quanlysv\src\main\resources" />
+      <recent name="C:\Users\Admins\OneDrive\Desktop\Self_Learn\quanlysv\src\main\java\com\example\quanlysv\Connection" />
+      <recent name="C:\Users\Admins\OneDrive\Desktop\Self_Learn\quanlysv\src\main\java\com\example\quanlysv" />
+      <recent name="C:\Users\Admins\OneDrive\Desktop\Self_Learn\quanlysv\src\main\webapp" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.example.quanlysv.test" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.StudentControllerTest.testFindStudent">
+    <configuration name="KhoaControllerTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="quanlysv" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.quanlysv.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.quanlysv.test" />
+      <option name="MAIN_CLASS_NAME" value="com.example.quanlysv.test.KhoaControllerTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LopControllerTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="quanlysv" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.quanlysv.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.quanlysv.test" />
+      <option name="MAIN_CLASS_NAME" value="com.example.quanlysv.test.LopControllerTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LopControllerTest.testFindLop" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="quanlysv" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.quanlysv.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.quanlysv.test" />
+      <option name="MAIN_CLASS_NAME" value="com.example.quanlysv.test.LopControllerTest" />
+      <option name="METHOD_NAME" value="testFindLop" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StudentControllerTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="quanlysv" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.quanlysv.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.quanlysv.test" />
+      <option name="MAIN_CLASS_NAME" value="com.example.quanlysv.test.StudentControllerTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StudentControllerTest.testFindStudent" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="quanlysv" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.quanlysv.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.quanlysv.test" />
+      <option name="MAIN_CLASS_NAME" value="com.example.quanlysv.test.StudentControllerTest" />
+      <option name="METHOD_NAME" value="testFindStudent" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tomcat 9.0.68" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.68" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="SHOW_DIALOG_ON_UPDATE" value="false" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="quanlysv:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="eccaef1b-ba8f-428c-8db1-817811522257" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="59614" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="quanlysv:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="TestNG.StudentControllerTest" />
+      <item itemvalue="TestNG.LopControllerTest.testFindLop" />
+      <item itemvalue="TestNG.StudentControllerTest.testFindStudent" />
+      <item itemvalue="TestNG.LopControllerTest" />
+      <item itemvalue="TestNG.KhoaControllerTest" />
+      <item itemvalue="Tomcat Server.Tomcat 9.0.68" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.StudentControllerTest.testFindStudent" />
+        <item itemvalue="TestNG.KhoaControllerTest" />
+        <item itemvalue="TestNG.LopControllerTest" />
+        <item itemvalue="TestNG.LopControllerTest.testFindLop" />
+        <item itemvalue="TestNG.StudentControllerTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="414fe4c8-9d21-415b-8049-1b259eb340f7" name="Changes" comment="" />
+      <created>1676787501534</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1676787501534</updated>
+      <workItem from="1676787503826" duration="1816000" />
+      <workItem from="1676794699504" duration="4753000" />
+      <workItem from="1678199592252" duration="5440000" />
+      <workItem from="1678460848309" duration="3327000" />
+      <workItem from="1678900053375" duration="1492000" />
+      <workItem from="1678937458976" duration="704000" />
+      <workItem from="1678974712819" duration="8974000" />
+      <workItem from="1678984344406" duration="937000" />
+      <workItem from="1679065582461" duration="7890000" />
+      <workItem from="1679080864680" duration="4837000" />
+      <workItem from="1679111875442" duration="11584000" />
+      <workItem from="1679150603216" duration="9572000" />
+      <workItem from="1679214967664" duration="4665000" />
+      <workItem from="1679445234221" duration="2964000" />
+      <workItem from="1679451487136" duration="3931000" />
+      <workItem from="1679677591360" duration="580000" />
+      <workItem from="1679710087993" duration="2050000" />
+      <workItem from="1679718295609" duration="1702000" />
+      <workItem from="1679728807480" duration="4106000" />
+      <workItem from="1679749368147" duration="1000" />
+      <workItem from="1679749626203" duration="8414000" />
+      <workItem from="1679758381618" duration="637000" />
+      <workItem from="1679832413879" duration="2272000" />
+      <workItem from="1679848733026" duration="4306000" />
+      <workItem from="1679928661907" duration="4542000" />
+      <workItem from="1680055220951" duration="1559000" />
+      <workItem from="1680319504462" duration="4764000" />
+      <workItem from="1680326089118" duration="4294000" />
+      <workItem from="1680349621910" duration="600000" />
+      <workItem from="1680355616960" duration="971000" />
+    </task>
+    <task id="LOCAL-00001" summary="Delete HelloServlet (Default code)">
+      <created>1676800087374</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1676800087374</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Feat : Đăng nhập JSP">
+      <created>1678203320665</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1678203320665</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Feat : Connect Database">
+      <created>1678937581984</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1678937581984</updated>
+    </task>
+    <task id="LOCAL-00004" summary="merge develop branch">
+      <created>1678977362903</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1678977362903</updated>
+    </task>
+    <task id="LOCAL-00005" summary="refactor: login">
+      <created>1678982778386</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1678982778386</updated>
+    </task>
+    <task id="LOCAL-00006" summary="refactor: home.jsp">
+      <created>1679112671253</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1679112671253</updated>
+    </task>
+    <task id="LOCAL-00007" summary="refactor">
+      <created>1679121242679</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1679121242679</updated>
+    </task>
+    <task id="LOCAL-00008" summary="refactor gitignore">
+      <created>1679123769569</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1679123769569</updated>
+    </task>
+    <task id="LOCAL-00009" summary="refactor gitignore target">
+      <created>1679123820054</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1679123820054</updated>
+    </task>
+    <task id="LOCAL-00010" summary="refactor Connect PostgreSql">
+      <created>1679729033752</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1679729033752</updated>
+    </task>
+    <task id="LOCAL-00011" summary="refactor">
+      <created>1679752967131</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1679752967131</updated>
+    </task>
+    <task id="LOCAL-00012" summary="refactor">
+      <created>1679756903801</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1679756903801</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Feat: List Khoa">
+      <created>1679934896142</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1679934896143</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Feat: display lop">
+      <created>1680328728608</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1680328728608</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Feat: Update, Create Lop">
+      <created>1680310161753</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1680310161753</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Refactor">
+      <created>1680335867242</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1680335867242</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Delete HelloServlet (Default code)" />
+    <MESSAGE value="Feat : Đăng nhập JSP" />
+    <MESSAGE value="Feat : Connect Database" />
+    <MESSAGE value="merge develop branch" />
+    <MESSAGE value="refactor: login" />
+    <MESSAGE value="refactor: home.jsp" />
+    <MESSAGE value="refactor gitignore" />
+    <MESSAGE value="refactor gitignore target" />
+    <MESSAGE value="refactor Connect PostgreSql" />
+    <MESSAGE value="refactor" />
+    <MESSAGE value="Feat: List Khoa" />
+    <MESSAGE value="Feat: display lop" />
+    <MESSAGE value="Feat: Update, Create Lop" />
+    <MESSAGE value="Refactor" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactor" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/quanlysv/servlet/controller/lop/DisplayLopController.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

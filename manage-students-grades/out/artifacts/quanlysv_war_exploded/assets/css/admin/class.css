@@ -1,0 +1,332 @@
+button {
+    border-radius: 5px;
+}
+
+.lop {
+    width: 100vw;
+}
+
+.phanlop.open {
+    display: flex;
+}
+
+.phanlop-close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: #000000;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    line-height: 60px;
+    font-size: 20px;
+    padding: 0 20px;
+}
+
+.phanlop-close:hover {
+    opacity: 1;
+    background-color: #00EEEE;
+    color: #fff;
+    border-radius: 25px;
+}
+
+.phanlop-header {
+    background: rgb(245, 245, 220);
+    height: 60px;
+    width: 100%;
+    align-items: center;
+    font-size: 30px;
+    padding-left: 20px;
+    color: #000000;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: row;
+}
+
+.phanlop-heading-icon {
+    margin-right: 16px;
+}
+
+.phanlop-body {
+    top: 60px;
+    padding: 16px;
+}
+
+.phanlop-label {
+    display: block;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.phanlop-input {
+    border: 1px solid #ccc;
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+    margin-bottom: 24px;
+}
+
+@keyframes phanlopFadein {
+    from {
+        transform: translateY(-200px);
+    }
+
+    to {
+        transform: translateX(0);
+    }
+}
+
+
+/* đầu trang */
+.dauTrang {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px 20px;
+    align-items: center;
+    padding-left: 30px;
+}
+
+.tieuDeTrang {
+    font-size: 30px;
+}
+
+.nutThemlop {
+    cursor: pointer;
+}
+
+.themVaTimKiem {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10px 20px;
+}
+.timKiem {
+    font-size: 14px;
+    display: flex;
+    flex-direction: row;
+}
+/* khu vực tìm kiếm */
+.khuVucTimKiem {
+    margin: 10px 20px;
+    border: 1px rgba(0, 0, 0, 0.3) solid;
+    border-radius: 10px;
+}
+
+.khuVucTimKiem-dau {
+    padding-left: 20px;
+    background-color: var(--red-color);
+    border-radius: 10px 10px 0 0;
+}
+
+.tieuDeTimKiem {
+    margin-right: 10px;
+    line-height: 40px;
+    align-items: center;
+    font-size: 16px;
+    /* color: white; */
+}
+
+.khuVucTimKiem-phanThan {
+    margin: 20px 20px;
+    text-align: center;
+}
+
+.nutThemlop,
+.nutTimKiem {
+    background-color: var(--red-color);
+    color: var(--white-color);
+    font-size: 14px;
+    padding: 10px;
+    border: none;
+}
+
+.nutTimKiem {
+    margin-right: 10px;
+    cursor: pointer;
+    /*height: 70%;*/
+    margin-left: 5px;
+}
+
+
+
+.nutThemlop:hover,
+.nutTimKiem:hover {
+    opacity: 0.7;
+}
+
+.nutThemlop_tieuDe {
+    margin-right: 10px;
+}
+
+
+.phanTimKiem {
+    /* display: flex; */
+    /* flex-direction: row; */
+    /* justify-content: space-between; */
+    margin-bottom: 20px;
+}
+
+
+.timKiem {
+    font-size: 14px;
+    display: flex;
+    flex-direction: row;
+}
+
+.tieuDeTimKiem {
+    margin-right: 10px;
+    line-height: 40px;
+    align-items: center;
+}
+
+#nhapTimKiem {
+    padding: 10px;
+    width: 20vw;
+    margin-right: 10px;
+    border-radius: 5px;
+    border-width: 1px;
+}
+
+.nutTimKiem_tieuDe {
+    margin-right: 5px;
+}
+
+
+/* table */
+.boc-bang {
+    width: 98vw;
+    overflow-x: auto;
+    padding: 10px 10px 15px 10px;
+    margin-left: 10px;
+}
+
+.cot-malop {
+    width: 170px;
+}
+
+.cot-ngayTao {
+    width: 160px;
+}
+.cot-tenHK,
+.cot-tenlop,
+.cot-khoa {
+    width: 200px;
+}
+
+.hanh-dong {
+    width: 150px;
+}
+
+.danhSach {
+    table-layout: fixed;
+    width: 100%;
+    font-size: 14px;
+    color: var(--text-color);
+    border-radius: 10px;
+    border-spacing: 0;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.4);
+}
+
+th,
+td {
+    padding: 10px 15px;
+    font-weight: 500;
+}
+
+/* sort cột */
+table th {
+    position: relative;
+}
+
+.hang1 {
+    line-height: 40px;
+    margin-bottom: 10px;
+    background-color: var(--red-color);
+    color: var(--white-color);
+    font-weight: bold;
+}
+
+table th[data-sort]::before,
+table th[data-sort]::after {
+    content: '';
+    position: absolute;
+    height: 0;
+    width: 0;
+    right: 10px;
+    opacity: 0.3;
+    border: 4px solid transparent;
+}
+
+table th[data-sort]::before {
+    top: 20px;
+    border-bottom-color: white;
+}
+
+table th[data-sort]::after {
+    top: 30px;
+    border-top-color: white;
+}
+
+table th.asc::before,
+table th.desc::after {
+    opacity: 1;
+}
+
+tr:nth-child(even) {
+    background-color: #eeeeee;
+}
+
+.chucNang {
+    display: flex;
+    flex-direction: column;
+}
+
+.hop-hanh-dong-nut {
+    font-size: 12px;
+    padding: 8px 17px;
+    color: var(--white-color);
+    border: none;
+}
+
+.xem {
+    margin-bottom: 5px;
+    margin-right: 5px;
+    background-color: green;
+    border: none;
+    width: 80%;
+}
+
+.xem:hover {
+    background-color: rgba(0, 128, 0, 0.8);
+}
+
+.sua {
+    margin-bottom: 5px;
+    margin-right: 5px;
+    background-color: rgb(24, 170, 255);
+    border: none;
+    width: 80%;
+}
+
+.sua:hover {
+    background-color: rgba(24, 170, 255, 0.8);
+}
+
+.sua_tieuDe {
+    margin-right: 5px;
+}
+
+.xoa {
+    background-color: var(--red-color);
+    width: 80%;
+}
+
+.xoa:hover {
+    background-color: var(--red-color);
+    opacity: 0.8;
+}
+
+.xoa_tieuDe {
+    margin-right: 5px;
+}
